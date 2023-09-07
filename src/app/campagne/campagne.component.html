@@ -22,8 +22,8 @@
       <option value="">Date de création.desc.</option>
     </select>
       <div class="recherche">
-          <input type="text" id="search" [(ngModel)]="search" class="inputSearch" placeholder="Recherche..."/>
-          <button id="searchBtn" type="button" class="btn btn-primary">
+        <input type="text" id="search" [(ngModel)]="search" class="inputSearch" placeholder="Recherche..."/>
+        <button id="searchBtn" type="button" class="btn btn-primary">
           <i style="color: #979797" class="bi bi-search"></i>
         </button>
       </div>
@@ -34,48 +34,48 @@
   <ul class="list-group list-group-flush">
     <table class="table">
       <thead>
-      <tr>
-        <th scope="col">Nom</th>
-        <th scope="col"></th>
-        <th scope="col">Partages</th>
-        <th scope="col">Clics</th>
-        <th scope="col">Contacts</th>
-        <th scope="col"></th>
-      </tr>
+        <tr>
+          <th scope="col">Nom</th>
+          <th scope="col"></th>
+          <th scope="col">Partages</th>
+          <th scope="col">Clics</th>
+          <th scope="col">Contacts</th>
+          <th scope="col"></th>
+        </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let item of jsonData.slice(startIndex, startIndex+5) | filtreRecherche: search; let index" style="height: 100px">
-        <td>
-          <div class="nom">
-            {{item.Nom}}<br/>
+        <tr *ngFor="let item of jsonData.slice(startIndex, startIndex+5) | filtreRecherche: search; let index" style="height: 100px">
+          <td>
+            <div class="nom">
+              {{item.Nom}}<br/>
               <button *ngIf="item.Tags[0]" id="btn1" class="btn btn-primary">{{item.Tags[0]}}</button>
               <button *ngIf="item.Tags[1]" id="btn2" class="btn btn-primary">{{item.Tags[1]}}</button>
               <button *ngIf="item.Tags[2]" id="btn3" class="btn btn-primary">{{item.Tags[2]}}</button>
-          </div>
-        </td>
-        <td>
-          <div>
-            <img class="infoImg" *ngIf="item.img" src="{{item.img}}">
-          </div>
-        </td>
-        <td style="height: 43px; width: 120px; text-align: center">
+            </div>
+          </td>
+          <td>
+            <div>
+              <img class="infoImg" *ngIf="item.img" src="{{item.img}}">
+            </div>
+          </td>
+          <td style="height: 43px; width: 120px; text-align: center">
             {{item.Partages}}<br/>
             <p>({{item.Attente}} en attente)</p>
-        </td>
-        <td>
+          </td>
+          <td>
             {{item.Clics}}
-        </td>
-        <td>
-          <div>
-            {{item.Contacts}}
-          </div>
-        </td>
-        <td>
+          </td>
+          <td>
+            <div>
+              {{item.Contacts}}
+            </div>
+          </td>
+          <td>
             <button id="btnInfo1" class="btn btn-primary"><i class="bi bi-share"></i></button>
             <button id="btnInfo2" class="btn btn-primary"><i class="bi bi-pencil"></i></button>
             <button id="btnInfo3" class="btn btn-primary"><i class="bi bi-gear"></i></button>
-        </td>
-      </tr>
+          </td>
+        </tr>
       </tbody>
     </table>
     <div class="pagination">
