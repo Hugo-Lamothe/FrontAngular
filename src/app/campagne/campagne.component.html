@@ -1,0 +1,61 @@
+<div class="haut">
+  <h1>Campagnes</h1>
+  <div class="user">
+    <i class="bi bi-bell-fill"></i>
+    <p>Jeremy</p>
+    <img src="https://img.freepik.com/psd-gratuit/personne-celebrant-son-orientation-sexuelle_23-2150115662.jpg">
+    <i class="bi bi-chevron-down"></i>
+  </div>
+</div>
+
+<div class="data">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" id="firstLine">
+      <h6>Nom</h6>
+      <h6 class="partage">Partages</h6>
+      <h6 class="clic">Clics</h6>
+      <h6 class="contact">Contacts</h6>
+    </li>
+      <li *ngFor="let item of jsonData.slice(startIndex, startIndex + 5)" class="list-group-item" id="infos">
+        <div class="objet">
+          <div class="nom">
+            {{item.Nom}}<br/>
+            <div class="tag">
+              <button *ngIf="item.Tags[0]" id="btn1" class="btn btn-primary">{{item.Tags[0]}}</button>
+              <button *ngIf="item.Tags[1]" id="btn2" class="btn btn-primary">{{item.Tags[1]}}</button>
+              <button *ngIf="item.Tags[2]" id="btn3" class="btn btn-primary">{{item.Tags[2]}}</button>
+              <button *ngIf="!item.Tags[2]" id="btn4" class="btn btn-primary">webinar</button>
+            </div>
+          </div>
+          <div>
+            <img *ngIf="item.img" src="{{item.img}}">
+          </div>
+          <div class="colone2">
+            {{item.Partages}}<br/>
+            <p>({{item.Attente}} en attente)</p>
+          </div>
+          <div class="colone3">
+            {{item.Clics}}
+          </div>
+          <div>
+            {{item.Contacts}}
+          </div>
+          <div class="tag">
+            <button id="btnInfo1" class="btn btn-primary"><i class="bi bi-share"></i></button>
+            <button id="btnInfo2" class="btn btn-primary"><i class="bi bi-pencil"></i></button>
+            <button id="btnInfo3" class="btn btn-primary"><i class="bi bi-gear"></i></button>
+          </div>
+        </div>
+      </li>
+    <div class="pagination">
+      <select>
+        <option value="">10 Résultats par page</option>
+      </select>
+      <div class="page">
+        <a *ngIf="startIndex == 5" type="button" class="btn btn-link" (click)="updateDataSlice(0)"><i class="bi bi-chevron-left"></i></a>
+        <p class="numPage">{{numPage}}</p>
+        <a *ngIf="startIndex == 0" type="button" class="btn btn-link" (click)="updateDataSlice(5)"><i class="bi bi-chevron-right"></i></a>
+      </div>
+    </div>
+  </ul>
+</div>

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "myfont";
+  src: url("/assets/fonts/avenir_next_lt_pro_regular-webfont.woff") format('woff');
+}
+
+
+.sidenav {
+  width: 170px;
+  height: 619px;
+  position: fixed;
+  top: 15px;
+  left: 10px;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+
+.sidenav a {
+  margin-bottom: 15%;
+  padding-left: 32px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "myfont";
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #2a7a93;
+  font-weight: bold;
+  background-color: #eef4f6;
+  border-radius: 30px;
+}
+
+.sidenav .logo {
+  top: 0;
+  right: 3%;
+  font-size: 36px;
+  margin-left: 10%;
+
+}
+
+.body{
+  width: 87%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f9f5f1;
+  overflow-x: hidden;
+  padding-top: 2%;
+}
+
+.content{
+  padding-left: 3%;
+}
+
+

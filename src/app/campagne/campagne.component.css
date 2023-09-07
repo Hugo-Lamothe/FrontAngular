@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "myfont2";
+  src: url("/assets/fonts/avenir_next_lt_pro_bold-webfont.woff") format('woff');
+}
+
+h1{
+  font-family: "myfont2";
+  color: #4f4f4f;
+}
+
+.data{
+  background-color: white;
+  border-radius: 10px;
+  padding: 2% 1% 1% 1%;
+  width: 98%;
+  height: 754px;
+}
+
+li{
+  font-family: "myfont2";
+  color: #4f4f4f;
+}
+#btn1{
+  background-color: #d95e54;
+  border-color: #d95e54;
+  border-radius: 12px;
+  height: 34px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#btn2{
+  background-color: #d95e54;
+  border-color: #d95e54;
+  border-radius: 12px;
+  height: 34px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 8px;
+}
+#btn3{
+  background-color: #d95e54;
+  border-color: #d95e54;
+  border-radius: 12px;
+  height: 34px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+#btn4{
+  visibility: hidden;
+}
+
+.objet{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20px, 70px));
+  gap: 200px;
+}
+
+p{
+  font-size: 17px;
+  font-family: "myfont";
+  color: #818181;
+}
+
+.tag{
+  display: flex;
+  justify-content: space-between;
+}
+
+.colone2{
+  text-align: center;
+  width: 286px;
+}
+
+.colone3{
+  margin-left: 50px;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  margin-left: 123px;
+  border-radius: 35px;
+  border: 1px #EBEBEB;
+}
+
+#btnInfo1{
+  width: 45px;
+  height: 37px;
+  background-color: #2a7a93;
+  border-color: #2a7a93;
+  border-radius: 12px;
+}
+
+#btnInfo2{
+  width: 45px;
+  height: 37px;
+  background-color: #2a7a93;
+  border-color: #2a7a93;
+  border-radius: 12px;
+  margin-left: 3px;
+}
+
+#btnInfo3{
+  width: 45px;
+  height: 37px;
+  background-color: #2a7a93;
+  border-color: #2a7a93;
+  border-radius: 12px;
+  margin-left: 3px;
+}
+
+.nom{
+  width: 282px;
+  top: 314px;
+  left: 315px;
+}
+
+#firstLine{
+  display: flex;
+  justify-content: space-between;
+}
+
+.clic{
+  margin-left: -300px;
+}
+
+.contact{
+  margin-left: -300px;
+}
+
+.pagination{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.page{
+  display: flex;
+  justify-content: space-between;
+}
+
+.page a{
+  color: #818181;
+}
+
+.numPage{
+  width: 50px;
+  height: 44px;
+  text-align: center;
+  margin-top: -5px;
+  border: #efefef solid 1px;
+  border-radius: 12px;
+}
+
+select{
+  color: #818181;
+  border-color: #efefef;
+  border-radius: 12px;
+}
+
+#infos{
+  margin-top: 20px;
+}
+
+.haut{
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user{
+  display: flex;
+}
+
