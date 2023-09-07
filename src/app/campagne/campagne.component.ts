@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { JsonService } from "../services/json.service";
 
+
 @Component({
   selector: 'app-campagne',
   templateUrl: './campagne.component.html',
@@ -9,9 +10,13 @@ import { JsonService } from "../services/json.service";
 export class CampagneComponent implements OnInit {
   jsonData: any;
   startIndex: number = 0;
-  numPage: String = "1/2"
-
-  constructor(private jsonService: JsonService) { }
+  numPage: String = "1/2";
+  search: string = '';
+  maxAffichage: number = 5;
+  afficheActu: number = 0;
+  constructor(
+    private jsonService: JsonService,
+  ) { }
 
   ngOnInit(): void {
     this.jsonService.getJSONData().subscribe(data => {
@@ -21,6 +26,7 @@ export class CampagneComponent implements OnInit {
 
   updateDataSlice(start: number): void {
     this.startIndex = start;
+
     if (start == 0){
       this.numPage = "1/2"
     }else{

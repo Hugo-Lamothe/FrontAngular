@@ -4,16 +4,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { CampagneComponent } from './campagne/campagne.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {FormsModule} from "@angular/forms";
+import { FiltreRecherchePipe } from './pipe/filtre-recherche.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CampagneComponent
+    CampagneComponent,
+    FiltreRecherchePipe
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

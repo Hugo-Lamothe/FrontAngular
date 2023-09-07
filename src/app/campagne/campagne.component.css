@@ -4,7 +4,9 @@
 }
 
 h1{
-  font-family: "myfont2";
+  font-family: myfont2;
+  font-weight: 700;
+  font-size: 30px;
   color: #4f4f4f;
 }
 
@@ -12,8 +14,8 @@ h1{
   background-color: white;
   border-radius: 10px;
   padding: 2% 1% 1% 1%;
-  width: 98%;
-  height: 754px;
+  width: 90%;
+  height: 700px;
 }
 
 li{
@@ -23,7 +25,7 @@ li{
 #btn1{
   background-color: #d95e54;
   border-color: #d95e54;
-  border-radius: 12px;
+  border-radius: 10px;
   height: 34px;
   font-weight: 600;
   font-size: 16px;
@@ -32,7 +34,7 @@ li{
 #btn2{
   background-color: #d95e54;
   border-color: #d95e54;
-  border-radius: 12px;
+  border-radius: 10px;
   height: 34px;
   font-weight: 600;
   font-size: 16px;
@@ -41,15 +43,11 @@ li{
 #btn3{
   background-color: #d95e54;
   border-color: #d95e54;
-  border-radius: 12px;
+  border-radius: 10px;
   height: 34px;
   font-weight: 600;
   font-size: 16px;
   margin-left: 8px;
-}
-
-#btn4{
-  visibility: hidden;
 }
 
 .objet{
@@ -58,27 +56,12 @@ li{
   gap: 200px;
 }
 
-p{
-  font-size: 17px;
-  font-family: "myfont";
-  color: #818181;
-}
-
 .tag{
   display: flex;
   justify-content: space-between;
 }
 
-.colone2{
-  text-align: center;
-  width: 286px;
-}
-
-.colone3{
-  margin-left: 50px;
-}
-
-img{
+.infoImg{
   width: 50px;
   height: 50px;
   margin-left: 123px;
@@ -112,29 +95,10 @@ img{
   margin-left: 3px;
 }
 
-.nom{
-  width: 282px;
-  top: 314px;
-  left: 315px;
-}
-
-#firstLine{
-  display: flex;
-  justify-content: space-between;
-}
-
-.clic{
-  margin-left: -300px;
-}
-
-.contact{
-  margin-left: -300px;
-}
 
 .pagination{
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
 }
 
 .page{
@@ -156,9 +120,9 @@ img{
 }
 
 select{
-  color: #818181;
+  color: #979797;
   border-color: #efefef;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 #infos{
@@ -166,12 +130,112 @@ select{
 }
 
 .haut{
-  width: 98%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ndLDroite{
+  width: 433px;
+  height: 44px;
   display: flex;
   justify-content: space-between;
 }
 
 .user{
   display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
+.userImg{
+  width: 50px;
+  height: 50px;
+  border-radius: 35px;
+  border: 1px #EBEBEB;
+}
+
+th{
+  font-family: myfont;
+  font-weight: 600;
+  font-size: 20px;
+  color: #4f4f4f;
+}
+
+td{
+  font-family: myfont;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+td p{
+  font-size: 14px;
+  font-family: myfont;
+  font-weight: 500;
+  color: #818181;
+}
+
+.onglet{
+  width: 122px;
+  height: 40px;
+  color: #4f4f4f;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: myfont;
+  border-bottom: 3px solid #2A7A93;
+  border-radius: 2px;
+}
+
+.MC{
+  width: 97px;
+  height: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: myfont;
+  color: #4f4f4f;
+}
+
+#btn4{
+  background-color: #d95e54;
+  border-color: #d95e54;
+  border-radius: 10px;
+  height: 44px;
+  width: 180px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.onglets{
+  width: 483px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#searchBtn{
+  width: 44px;
+  height: 44px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #FDFDFF;
+  border: 1px #EBEBEB solid;
+}
+
+.recherche{
+  width: 193px;
+  display: flex;
+}
+
+.ndL{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.inputSearch{
+  width: 149px;
+  height: 44px;
+  background-color: #FDFDFF;
+  color: #979797;
+  border: 1px #EBEBEB solid;
+  border-radius: 8px 0px 0px 8px;
+}
