@@ -16,6 +16,14 @@ h1{
   padding: 2% 1% 1% 1%;
   width: 90%;
   height: 700px;
+  text-align: center;
+}
+
+p{
+  font-size: 14px;
+  font-family: myfont;
+  font-weight: 500;
+  color: #818181;
 }
 
 li{
