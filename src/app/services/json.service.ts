@@ -11,4 +11,9 @@ export class JsonService {
   getJSONData(): Observable<any> {
     return this.http.get('assets/donnees/campagne.json');
   }
+
+  getProduits(): Observable<any> {
+    return this.http.get('assets/donnees/produit.json');
+  }
+
 }

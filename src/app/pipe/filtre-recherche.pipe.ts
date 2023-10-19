@@ -10,7 +10,7 @@ export class FiltreRecherchePipe implements PipeTransform {
     if (!items || !term) {
       return items;
     }
-    console.log(items)
+    console.log(term)
     return items.filter(item =>
       item.Nom.toLowerCase().includes(term.toLowerCase())
     );

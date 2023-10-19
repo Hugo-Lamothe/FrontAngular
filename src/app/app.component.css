@@ -38,7 +38,14 @@
   right: 3%;
   font-size: 36px;
   margin-left: 10%;
+}
 
+.sidenav .logo:hover {
+  top: 0;
+  right: 3%;
+  font-size: 36px;
+  margin-left: 10%;
+  background-color: white;
 }
 
 .body{

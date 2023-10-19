@@ -1,0 +1,52 @@
+[
+  {
+    "Nom": "Téléviseur LED 4K",
+    "prix": 799.99,
+    "stock": 25
+  },
+  {
+    "Nom": "Smartphone Android",
+    "prix": 499.99,
+    "stock": 50
+  },
+  {
+    "Nom": "Ordinateur portable",
+    "prix": 1099.99,
+    "stock": 20
+  },
+  {
+    "Nom": "Casque sans fil",
+    "prix": 149.99,
+    "stock": 100
+  },
+  {
+    "Nom": "Tablette tactile",
+    "prix": 299.99,
+    "stock": 30
+  },
+  {
+    "Nom": "Machine à café",
+    "prix": 129.99,
+    "stock": 15
+  },
+  {
+    "Nom": "Enceinte Bluetooth",
+    "prix": 79.99,
+    "stock": 40
+  },
+  {
+    "Nom": "Montre connectée",
+    "prix": 199.99,
+    "stock": 60
+  },
+  {
+    "Nom": "Imprimante multifonction",
+    "prix": 199.99,
+    "stock": 10
+  },
+  {
+    "Nom": "Aspirateur robot",
+    "prix": 299.99,
+    "stock": 25
+  }
+]

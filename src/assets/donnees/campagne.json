@@ -15,7 +15,7 @@
     "Attente": 4,
     "Clics": 1123,
     "Contacts": 37,
-    "Tags" : ["Digital", "Limber"]
+    "Tags" : ["Digital", "Development"]
   },
   {
     "Nom": "Fonctionnalité 3",
@@ -23,7 +23,7 @@
     "Attente": 5,
     "Clics": 12,
     "Contacts": 35,
-    "Tags" : ["Digital", "Webinar", "Limber"]
+    "Tags" : ["Digital", "Webinar", "Development"]
   },
   {
     "Nom": "Fonctionnalité 4",
@@ -31,7 +31,7 @@
     "Attente": 5,
     "Clics": 15,
     "Contacts": 34,
-    "Tags" : ["Digital", "Webinar", "Limber"]
+    "Tags" : ["Digital", "Webinar", "Development"]
   },
   {
     "Nom": "Fonctionnalité 5",
@@ -40,7 +40,7 @@
     "Attente": 6,
     "Clics": 21,
     "Contacts": 55,
-    "Tags" : ["Digital", "Webinar", "Limber"]
+    "Tags" : ["Digital", "Webinar", "Development"]
   },
   {
     "Nom": "Fonctionnalité 6",
@@ -48,7 +48,7 @@
     "Attente": 45,
     "Clics": 180,
     "Contacts": 35,
-    "Tags" : ["Digital", "Webinar", "Limber"]
+    "Tags" : ["Digital", "Webinar", "Development"]
   },
   {
     "Nom": "Fonctionnalité 7",
@@ -56,7 +56,7 @@
     "Attente": 25,
     "Clics": 120,
     "Contacts": 20,
-    "Tags" : ["Digital", "Webinar", "Limber"]
+    "Tags" : ["Digital", "Webinar", "Development"]
   },
   {
     "Nom": "Fonctionnalité 8",
@@ -64,7 +64,7 @@
     "Attente": 55,
     "Clics": 220,
     "Contacts": 38,
-    "Tags" : ["Digital", "Webinar", "Limber"]
+    "Tags" : ["Digital", "Webinar", "Development"]
   },
   {
     "Nom": "Fonctionnalité 9",
@@ -72,7 +72,7 @@
     "Attente": 35,
     "Clics": 140,
     "Contacts": 23,
-    "Tags" : ["Digital", "Webinar", "Limber"]
+    "Tags" : ["Digital", "Webinar", "Development"]
   },
   {
     "Nom": "Fonctionnalité 10",
@@ -80,6 +80,6 @@
     "Attente": 52,
     "Clics": 210,
     "Contacts": 36,
-    "Tags" : ["Digital", "Webinar", "Limber"]
+    "Tags" : ["Digital", "Webinar", "Development"]
   }
 ]
