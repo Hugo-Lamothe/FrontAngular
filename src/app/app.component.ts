@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Limber';
+  title = 'FrontAngular';
   stylesAcc = {}
   stylesCamp = {}
   stylesProd = {}
@@ -20,7 +20,11 @@ export class AppComponent {
   afficherContact: boolean = false;
 
   accueil(){
-    this.afficherAccueil = !this.afficherAccueil;
+    if(this.afficherAccueil){
+      this.afficherAccueil = true;
+    }else{
+      this.afficherAccueil = !this.afficherAccueil;
+    }
     if (this.afficherCampagne || this.afficherProduit || this.afficherEntreprise || this.stylesContact){
       this.afficherCampagne = false;
       this.afficherProduit = false;
@@ -40,7 +44,11 @@ export class AppComponent {
   }
 
   Produit(){
-    this.afficherProduit = !this.afficherProduit;
+    if(this.afficherProduit){
+      this.afficherProduit = true;
+    }else{
+      this.afficherProduit = !this.afficherProduit;
+    }
     if (this.afficherCampagne || this.afficherAccueil || this.afficherEntreprise || this.stylesContact){
       this.afficherCampagne = false;
       this.afficherAccueil = false;
@@ -60,7 +68,11 @@ export class AppComponent {
   }
 
   campagne() {
-    this.afficherCampagne = !this.afficherCampagne;
+    if(this.afficherCampagne){
+      this.afficherCampagne = true;
+    }else{
+      this.afficherCampagne = !this.afficherCampagne;
+    }
     if (this.afficherAccueil || this.afficherProduit || this.afficherEntreprise || this.stylesContact){
       this.afficherAccueil = false;
       this.afficherProduit = false;
@@ -80,7 +92,11 @@ export class AppComponent {
   }
 
   entreprise() {
-    this.afficherEntreprise = !this.afficherEntreprise;
+    if(this.afficherEntreprise){
+      this.afficherEntreprise = true;
+    }else{
+      this.afficherEntreprise = !this.afficherEntreprise;
+    }
     if (this.afficherAccueil || this.afficherProduit || this.afficherCampagne || this.stylesContact){
       this.afficherAccueil = false;
       this.afficherProduit = false;
@@ -100,7 +116,11 @@ export class AppComponent {
   }
 
   contact() {
-    this.afficherContact = !this.afficherContact;
+    if(this.afficherContact){
+      this.afficherContact = true;
+    }else{
+      this.afficherContact = !this.afficherContact;
+    }
     if (this.afficherAccueil || this.afficherProduit || this.afficherCampagne || this.afficherEntreprise){
       this.afficherAccueil = false;
       this.afficherProduit = false;
